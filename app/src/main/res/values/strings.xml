@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AppAreaVolumen</string>
+
+    <string name="titulo_opciones">OPCIONES</string>
+    <string name="opcion_area">AREAS</string>
+    <string name="opcion_volumen">VOLÚMENES</string>
+    <string name="opcion_operaciones_realizadas">OPERACIONES REALIZADAS</string>
+
+    <string-array name="lis_opciones">
+        <item>@string/opcion_area</item>
+        <item>@string/opcion_volumen</item>
+        <item>@string/opcion_operaciones_realizadas</item>
+    </string-array>
+
+</resources>
