@@ -6,10 +6,34 @@
     <string name="opcion_volumen">VOLÚMENES</string>
     <string name="opcion_operaciones_realizadas">OPERACIONES REALIZADAS</string>
 
+    <string name="opcion_cuadrado">CUADRADO</string>
+    <string name="opcion_rectangulo">RECTANGULO</string>
+    <string name="opcion_triangulo">TRIANGULO</string>
+    <string name="opcion_circulo">CIRCULO</string>
+
+    <string name="opcion_esfera">ESFERA</string>
+    <string name="opcion_cilindro">CILINDRO</string>
+    <string name="opcion_cono">CONO</string>
+    <string name="opcion_cubo">CUBO</string>
+
     <string-array name="lis_opciones">
         <item>@string/opcion_area</item>
         <item>@string/opcion_volumen</item>
         <item>@string/opcion_operaciones_realizadas</item>
+    </string-array>
+
+    <string-array name="lis_areas">
+        <item>@string/opcion_cuadrado</item>
+        <item>@string/opcion_rectangulo</item>
+        <item>@string/opcion_triangulo</item>
+        <item>@string/opcion_circulo</item>
+    </string-array>
+
+    <string-array name="lis_volumenes">
+        <item>@string/opcion_esfera</item>
+        <item>@string/opcion_cilindro</item>
+        <item>@string/opcion_cono</item>
+        <item>@string/opcion_cubo</item>
     </string-array>
 
 </resources>

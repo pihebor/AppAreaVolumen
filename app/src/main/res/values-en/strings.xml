@@ -5,4 +5,12 @@
     <string name="opcion_area">AREAS</string>
     <string name="opcion_volumen">VOLUMES</string>
     <string name="opcion_operaciones_realizadas">OPERATIONS PERFORMED</string>
+    <string name="opcion_cuadrado">SQUARE</string>
+    <string name="opcion_rectangulo">RECTANGLE</string>
+    <string name="opcion_circulo">CIRCLE</string>
+    <string name="opcion_triangulo">TRIANGLE</string>
+    <string name="opcion_esfera">SPHERE</string>
+    <string name="opcion_cilindro">CYLINDER</string>
+    <string name="opcion_cono">CONE</string>
+    <string name="opcion_cubo">" CUBE"</string>
 </resources>

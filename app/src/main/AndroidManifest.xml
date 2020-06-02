@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ListarOperaciones"></activity>
+        <activity android:name=".VolumenCilindro"></activity>
+        <activity android:name=".VolumenCubo" />
+        <activity android:name=".VolumenCono" />
+        <activity android:name=".VolumenEsfera" />
+        <activity android:name=".AreaCirculo" />
+        <activity android:name=".AreaTriangulo" />
+        <activity android:name=".AreaRectangulo" />
+        <activity android:name=".AreaCuadrado" />
+        <activity android:name=".ListarOperaciones" />
         <activity android:name=".CalcularVolumen" />
         <activity android:name=".CalcularArea" />
         <activity android:name=".MainActivity">
