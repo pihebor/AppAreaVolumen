@@ -20,6 +20,14 @@
     <string name="boton_calcular">Calcular</string>
     <string name="boton_borrar">Borrar</string>
     <string name="resultado">Resultado</string>
+    <string name="txt_base">Base</string>
+    <string name="lbl_altura">Altura</string>
+    <string name="lbl_res_area">Area</string>
+
+    <string name="error_lado">El valor introducido como Lado no es valido</string>
+    <string name="error_base">El valor introducido como Base no es valido</string>
+    <string name="error_altura">El valor introducido como Altura no es valido</string>
+
 
     <string-array name="lis_opciones">
         <item>@string/opcion_area</item>

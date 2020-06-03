@@ -13,4 +13,15 @@
     <string name="opcion_cilindro">CYLINDER</string>
     <string name="opcion_cono">CONE</string>
     <string name="opcion_cubo">" CUBE"</string>
+    <string name="lbl_valor_lado">" Side Value"</string>
+    <string name="valor_lado">" Side Value"</string>
+    <string name="boton_calcular">Calculate</string>
+    <string name="boton_borrar">Delete</string>
+    <string name="resultado">Outcome</string>
+    <string name="lbl_altura">Height</string>
+    <string name="txt_base">Base</string>
+    <string name="lbl_res_area">Area</string>
+    <string name="error_base">The value entered as Base is not valid</string>
+    <string name="error_altura">The value entered as Height is not valid</string>
+    <string name="error_lado">The value entered as Side is not valid</string>
 </resources>

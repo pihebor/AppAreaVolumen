@@ -79,7 +79,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/lblResultadoCua"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="35dp"
@@ -92,9 +92,19 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/lblMuestraResultado"
+        android:id="@+id/lblResAreaCua"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:text="@string/lbl_res_area"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lblMuestraResultadoCua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:layout_weight="0"
         android:textSize="24sp" />
 
