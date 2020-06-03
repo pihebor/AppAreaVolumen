@@ -27,6 +27,9 @@
     <string name="error_lado">El valor introducido como Lado no es valido</string>
     <string name="error_base">El valor introducido como Base no es valido</string>
     <string name="error_altura">El valor introducido como Altura no es valido</string>
+    <string name="error_radio">El valor introducido como Radio no es valido</string>
+
+    <string name="radio">Radio</string>
 
 
     <string-array name="lis_opciones">

@@ -24,4 +24,6 @@
     <string name="error_base">The value entered as Base is not valid</string>
     <string name="error_altura">The value entered as Height is not valid</string>
     <string name="error_lado">The value entered as Side is not valid</string>
+    <string name="radio">Radius</string>
+    <string name="error_radio">The value entered as Radius is not valid</string>
 </resources>
