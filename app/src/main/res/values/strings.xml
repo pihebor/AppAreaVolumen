@@ -15,6 +15,11 @@
     <string name="opcion_cilindro">CILINDRO</string>
     <string name="opcion_cono">CONO</string>
     <string name="opcion_cubo">CUBO</string>
+    <string name="lbl_valor_lado">Valor del Lado</string>
+    <string name="valor_lado">Valor del Lado</string>
+    <string name="boton_calcular">Calcular</string>
+    <string name="boton_borrar">Borrar</string>
+    <string name="resultado">Resultado</string>
 
     <string-array name="lis_opciones">
         <item>@string/opcion_area</item>
