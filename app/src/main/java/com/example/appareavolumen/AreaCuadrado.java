@@ -32,4 +32,10 @@ public class AreaCuadrado extends AppCompatActivity {
         result_area = Math.pow(lado, 2);
         resultado.setText("" + result_area);
     }
+
+    public void borrar(View v){
+        resultado.setText("");
+        txt_lado.setText("");
+        txt_lado.requestFocus();
+    }
 }
