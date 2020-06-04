@@ -30,6 +30,7 @@
     <string name="error_radio">El valor introducido como Radio no es valido</string>
 
     <string name="radio">Radio</string>
+    <string name="lbl_volumen">Volumen</string>
 
 
     <string-array name="lis_opciones">

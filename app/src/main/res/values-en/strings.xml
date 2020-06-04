@@ -26,4 +26,5 @@
     <string name="error_lado">The value entered as Side is not valid</string>
     <string name="radio">Radius</string>
     <string name="error_radio">The value entered as Radius is not valid</string>
+    <string name="lbl_volumen">Volumes</string>
 </resources>
