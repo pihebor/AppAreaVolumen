@@ -28,9 +28,11 @@
     <string name="error_base">El valor introducido como Base no es valido</string>
     <string name="error_altura">El valor introducido como Altura no es valido</string>
     <string name="error_radio">El valor introducido como Radio no es valido</string>
+    <string name="error_arista">El valor introducido como Arista no es valido</string>
 
     <string name="radio">Radio</string>
     <string name="lbl_volumen">Volumen</string>
+    <string name="arista">Arista</string>
 
 
     <string-array name="lis_opciones">

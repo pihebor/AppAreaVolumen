@@ -27,4 +27,6 @@
     <string name="radio">Radius</string>
     <string name="error_radio">The value entered as Radius is not valid</string>
     <string name="lbl_volumen">Volumes</string>
+    <string name="arista">Edge</string>
+    <string name="error_arista">The value entered as Edge is not valid</string>
 </resources>
