@@ -33,14 +33,14 @@ public class AreaCuadrado extends AppCompatActivity {
             lado = Double.parseDouble(txt_lado.getText().toString());
             result_area = Math.pow(lado, 2);
 
-            str_muestra_ope = "Area del Cuadrado";
+            str_muestra_ope = getResources().getString(R.string.area_cuadrado);
             str_dato= String.valueOf(lado);
             str_dato= "L="+str_dato;
             str_res = String.valueOf(result_area);
             Operacion operacion= new Operacion(str_muestra_ope, str_dato, str_res);
             operacion.guardar();
 
-            lbl_area.setText("Area");
+            lbl_area.setText(getResources().getString(R.string.lbl_res_area));
             resultado.setText("" + result_area);
         }
     }

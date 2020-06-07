@@ -38,6 +38,13 @@
     <string name="resultado_listar">RESULTADO</string>
     <string name="operacion">OPERACIÓN</string>
     <string name="area_rectangulo">Area del Rectangulo</string>
+    <string name="area_circulo">Area del Circulo</string>
+    <string name="area_cuadrado">Area del Cuadrado</string>
+    <string name="area_trinagulo">Area del Triangulo</string>
+    <string name="volumen_cilindro">Volumen del Cilindro</string>
+    <string name="volumen_cono">Volumen del Cono</string>
+    <string name="volumen_cubo">Volumen del Cubo</string>
+    <string name="volumen_esfera">Volumen de la Esfera</string>
 
 
     <string-array name="lis_opciones">

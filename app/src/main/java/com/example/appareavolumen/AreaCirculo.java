@@ -21,6 +21,7 @@ public class AreaCirculo extends AppCompatActivity {
         lbl_resultado_cir = findViewById(R.id.lblMuestraResultadoCir);
         lbl_area_cir = findViewById(R.id.lblResAreaCir);
         lbl_area_cir.setText("");
+
     }
 
     public void calcular(View v) {
@@ -33,14 +34,14 @@ public class AreaCirculo extends AppCompatActivity {
             //resultado_cir = Double.parseDouble(txt_altura.getText().toString());
             resultado_cir = Math.PI*(Math.pow(radio,2));
 
-            str_muestra_ope = "Area del Circulo";
+            str_muestra_ope = getResources().getString(R.string.area_circulo);
             str_dato= String.valueOf(radio);
             str_dato= "r="+str_dato;
             str_res = String.valueOf(String.format("%.2f", resultado_cir));
             Operacion operacion= new Operacion(str_muestra_ope, str_dato, str_res);
             operacion.guardar();
 
-            lbl_area_cir.setText("Area");
+            lbl_area_cir.setText(getResources().getString(R.string.lbl_res_area));
             lbl_resultado_cir.setText("" + resultado_cir);
         }
     }

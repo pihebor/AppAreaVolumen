@@ -33,5 +33,12 @@
     <string name="datos">DATA</string>
     <string name="resultado_listar">OUTCOME</string>
     <string name="operacion">OPERATION</string>
-    <string name="area_rectangulo">Rectangle area</string>
+    <string name="area_rectangulo">Rectangle Area</string>
+    <string name="area_circulo">Circle Area</string>
+    <string name="area_cuadrado">Square Area</string>
+    <string name="volumen_esfera">Sphere Volume</string>
+    <string name="volumen_cubo">Cube Volume</string>
+    <string name="volumen_cono">Cone Volume</string>
+    <string name="volumen_cilindro">Cylinder Volume</string>
+    <string name="area_trinagulo">Triangle Area</string>
 </resources>

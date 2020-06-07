@@ -33,15 +33,15 @@ public class VolumenCono extends AppCompatActivity {
             altura_cono = Double.parseDouble(txt_altura_cono.getText().toString());
             resultado_cono = (Math.PI*(Math.pow(radio_cono,2))*altura_cono)/3;
 
-            str_muestra_ope = "Volumen del Cono";
+            str_muestra_ope = getResources().getString(R.string.volumen_cono);
             str_dato= String.valueOf(radio_cono);
             str_dato1 = String.valueOf(altura_cono);
-            str_dato= "b="+str_dato+" h="+str_dato1;
+            str_dato= "r="+str_dato+" h="+str_dato1;
             str_res = String.valueOf(String.format("%.2f", resultado_cono));
             Operacion operacion= new Operacion(str_muestra_ope, str_dato, str_res);
             operacion.guardar();
 
-            lbl_area_cono.setText("Volumen");
+            lbl_area_cono.setText(getResources().getString(R.string.lbl_volumen));
             lbl_resultado_cono.setText("" + resultado_cono);
         }
     }
