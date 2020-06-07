@@ -24,10 +24,22 @@ public class AreaTriangulo extends AppCompatActivity {
     }
     public void calcular(View v) {
         if (validar()) {
+
+            String str_res, str_dato, str_dato1;
+            String str_muestra_ope;
+
             base = Double.parseDouble(txt_base_tri.getText().toString());
             altura = Double.parseDouble(txt_altura_tri.getText().toString());
             resultado = Double.parseDouble(txt_altura_tri.getText().toString());
             resultado = (base * altura)/2;
+
+            str_muestra_ope = "Area del Triangulo";
+            str_dato= String.valueOf(base);
+            str_dato1 = String.valueOf(altura);
+            str_dato= "b="+str_dato+" h="+str_dato1;
+            str_res = String.valueOf(String.format("%.2f", resultado));
+            Operacion operacion= new Operacion(str_muestra_ope, str_dato, str_res);
+            operacion.guardar();
 
             lbl_area_tri.setText("Area");
             lbl_resultado_tri.setText("" + resultado);

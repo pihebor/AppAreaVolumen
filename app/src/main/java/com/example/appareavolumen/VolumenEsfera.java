@@ -24,9 +24,20 @@ public class VolumenEsfera extends AppCompatActivity {
 
     public void calcular(View v) {
         if (validar()) {
+
+            String str_res, str_dato;
+            String str_muestra_ope;
+
             radio = Double.parseDouble(txt_radio_esf.getText().toString());
             //resultado_cir = Double.parseDouble(txt_altura.getText().toString());
             resultado_esf = (4*Math.PI*(Math.pow(radio,3)))/3;
+
+            str_muestra_ope = "Volumen de la Esfera";
+            str_dato= String.valueOf(radio);
+            str_dato= "r="+str_dato;
+            str_res = String.valueOf(String.format("%.2f", resultado_esf));
+            Operacion operacion= new Operacion(str_muestra_ope, str_dato, str_res);
+            operacion.guardar();
 
             lbl_area_esf.setText("Volumen");
             lbl_resultado_esf.setText("" + resultado_esf);

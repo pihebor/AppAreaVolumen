@@ -25,9 +25,20 @@ public class AreaCirculo extends AppCompatActivity {
 
     public void calcular(View v) {
         if (validar()) {
+
+            String str_res, str_dato;
+            String str_muestra_ope;
+
             radio = Double.parseDouble(txt_radio.getText().toString());
             //resultado_cir = Double.parseDouble(txt_altura.getText().toString());
             resultado_cir = Math.PI*(Math.pow(radio,2));
+
+            str_muestra_ope = "Area del Circulo";
+            str_dato= String.valueOf(radio);
+            str_dato= "r="+str_dato;
+            str_res = String.valueOf(String.format("%.2f", resultado_cir));
+            Operacion operacion= new Operacion(str_muestra_ope, str_dato, str_res);
+            operacion.guardar();
 
             lbl_area_cir.setText("Area");
             lbl_resultado_cir.setText("" + resultado_cir);

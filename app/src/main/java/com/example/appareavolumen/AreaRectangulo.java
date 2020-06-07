@@ -11,6 +11,7 @@ public class AreaRectangulo extends AppCompatActivity {
     private EditText txt_base, txt_altura;
     private Double base, altura, resultado;
     private TextView lbl_resultado, lbl_area;
+    String tipo_operacion,figura;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,10 +26,20 @@ public class AreaRectangulo extends AppCompatActivity {
 
     public void calcular(View v) {
         if (validar()) {
+            String str_res, str_dato, str_dato1;
+            String str_muestra_ope;
+
             base = Double.parseDouble(txt_base.getText().toString());
             altura = Double.parseDouble(txt_altura.getText().toString());
             resultado = Double.parseDouble(txt_altura.getText().toString());
             resultado = base * altura;
+            str_muestra_ope = "Area del Rectangulo";
+            str_dato= String.valueOf(base);
+            str_dato1 = String.valueOf(altura);
+            str_dato= "b="+str_dato+" h="+str_dato1;
+            str_res = String.valueOf(String.format("%.2f", resultado));
+            Operacion operacion= new Operacion(str_muestra_ope, str_dato, str_res);
+            operacion.guardar();
 
             lbl_area.setText("Area");
             lbl_resultado.setText("" + resultado);

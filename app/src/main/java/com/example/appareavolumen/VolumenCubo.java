@@ -24,8 +24,19 @@ public class VolumenCubo extends AppCompatActivity {
 
     public void calcular(View v) {
         if (validar()) {
+
+            String str_res, str_dato;
+            String str_muestra_ope;
+
             arista_cubo = Double.parseDouble(txt_arista_cubo.getText().toString());
             resultado_cubo = Math.pow(arista_cubo,3);
+
+            str_muestra_ope = "Volumen del Cubo";
+            str_dato= String.valueOf(arista_cubo);
+            str_dato= "r="+str_dato;
+            str_res = String.valueOf(String.format("%.2f", resultado_cubo));
+            Operacion operacion= new Operacion(str_muestra_ope, str_dato, str_res);
+            operacion.guardar();
 
             lbl_arista_cubo.setText("Volumen");
             lbl_resultado_cubo.setText("" + resultado_cubo);

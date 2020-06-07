@@ -4,7 +4,7 @@
     <string name="titulo_opciones">OPCIONES</string>
     <string name="opcion_area">AREAS</string>
     <string name="opcion_volumen">VOLÚMENES</string>
-    <string name="opcion_operaciones_realizadas">OPERACIONES</string>
+    <string name="opcion_operaciones_realizadas">OPERACIONES REALIZADAS</string>
 
     <string name="opcion_cuadrado">CUADRADO</string>
     <string name="opcion_rectangulo">RECTANGULO</string>
@@ -36,6 +36,8 @@
     <string name="numero">No.</string>
     <string name="datos">DATOS</string>
     <string name="resultado_listar">RESULTADO</string>
+    <string name="operacion">OPERACIÓN</string>
+    <string name="area_rectangulo">Area del Rectangulo</string>
 
 
     <string-array name="lis_opciones">

@@ -26,9 +26,21 @@ public class AreaCuadrado extends AppCompatActivity {
 
     public void calcular(View v) {
         if (validar()) {
+
+            String str_res, str_dato;
+            String str_muestra_ope;
+
             lado = Double.parseDouble(txt_lado.getText().toString());
-            lbl_area.setText("Area");
             result_area = Math.pow(lado, 2);
+
+            str_muestra_ope = "Area del Cuadrado";
+            str_dato= String.valueOf(lado);
+            str_dato= "L="+str_dato;
+            str_res = String.valueOf(result_area);
+            Operacion operacion= new Operacion(str_muestra_ope, str_dato, str_res);
+            operacion.guardar();
+
+            lbl_area.setText("Area");
             resultado.setText("" + result_area);
         }
     }

@@ -24,9 +24,21 @@ public class VolumenCilindro extends AppCompatActivity {
     }
     public void calcular(View v) {
         if (validar()) {
+
+            String str_res, str_dato, str_dato1;
+            String str_muestra_ope;
+
             radio_cil = Double.parseDouble(txt_radio_cil.getText().toString());
             altura_cil = Double.parseDouble(txt_altura_cil.getText().toString());
             resultado_cil = Math.PI*(Math.pow(radio_cil,2))*altura_cil;
+
+            str_muestra_ope = "Volumen del Cilindro";
+            str_dato= String.valueOf(radio_cil);
+            str_dato1 = String.valueOf(altura_cil);
+            str_dato= "b="+str_dato+" h="+str_dato1;
+            str_res = String.valueOf(String.format("%.2f", resultado_cil));
+            Operacion operacion= new Operacion(str_muestra_ope, str_dato, str_res);
+            operacion.guardar();
 
             lbl_area_cil.setText("Volumen");
             lbl_resultado_cil.setText("" + resultado_cil);
